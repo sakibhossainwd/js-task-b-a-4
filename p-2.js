@@ -12,7 +12,7 @@ function matchFinder(string1, string2) {
     else{
         return false;
     }
-}
+};
 
 const stringOne = 'Sakib Hossain';
 const stringTwo = 'Hossain';

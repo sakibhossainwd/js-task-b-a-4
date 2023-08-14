@@ -7,7 +7,6 @@ function findAddress(obj) {
     return `${name},${age},${address}`;
 }
 
-
 const person = {
     name: "John Doe",
     age: 30,
