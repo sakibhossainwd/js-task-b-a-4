@@ -14,8 +14,7 @@ function canPay(items, totalCost) {
     let sum = 0;
     for (let i = 0; i < items.length; i++) {
             sum += items[i];
-            console.log(sum);
-        
+            // console.log(sum);
     }
 
     // Check if the sum is greater than or equal to the total cost
