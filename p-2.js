@@ -19,6 +19,9 @@ const stringTwo = 'Hossain';
 const result = matchFinder01(stringOne, stringTwo);
 // console.log(result);
 
+
+// Another way without using buil-in method
+
 function matchFinder02(string01, string02) {
     // is perameter string
     if(typeof string01 !== 'string' || typeof string02 !== 'string'){
