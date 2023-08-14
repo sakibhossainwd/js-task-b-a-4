@@ -22,6 +22,6 @@ const array1 = sortMaker([7,9,8,6,3,2,5]);
 const array2 = sortMaker([5,5]);
 const array3 = sortMaker([-5,9]);
 
-console.log(array3);
+console.log(array1);
 
 
