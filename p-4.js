@@ -1,9 +1,10 @@
 // problem - 04
-function findAddress(inputObj) {
-    // return "Name: " + (inputObj.name || "__") + "\nAge: " + (inputObj.age || "__") + "\nAddress: " + (inputObj.address || "__");
+function findAddress(obj) {
+    const name = obj.name || "__";
+    const age = obj.age || "__";
+    const address = obj.address || "__";
 
-    return (inputObj.name + inputObj.age  + inputObj.address);
-
+    return `${name},${age},${address}`;
 }
 
 
@@ -12,5 +13,9 @@ const person = {
     age: 30,
     address: "123 Main St, City"
 };
+const person1 = {
+    name: "John Doe",
+    address: "123 Main St, City"
+};
 
-console.log(findAddress(person));
+console.log(findAddress(person1));
